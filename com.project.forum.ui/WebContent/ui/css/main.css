@@ -1,0 +1,204 @@
+@CHARSET "ISO-8859-1";
+/*		
+	####################################
+		REGION MEDIA QUERIES STANDARD
+	####################################
+*/
+	@media (max-width: 767px)
+		and (min-width: 768px)
+		and (min-width: 992px)
+		and (min-width: 1200px)
+	{
+		.container-centralizer{
+			margin-left: auto;
+			margin-right: auto;
+			text-align: justify;
+			width: 85%;
+		}
+		
+		.no-padding-left{
+			padding-left: 0px;
+		}
+	}
+
+/*		
+	####################################
+		REGION SPECIFIC MEDIA QUERIES 
+	####################################
+*/
+	@media (min-width: 767px){
+		.container-centralizer{
+		}
+		
+	}
+
+@media (min-width: 768px){
+	.container-centralizer{
+
+	}
+	
+}
+
+@media (min-width: 992px){
+	.container-centralizer{
+	}
+	
+}
+
+@media (min-width: 1200px){
+	.container-centralizer{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		width: 85%;
+		
+	}
+	
+	.container-centralizer-pdg{
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 10px;
+		width: 75%;
+		background: lightgray;
+		border-top: 3px solid rgb(154,189,191);
+	}
+}
+
+/*		
+	#################################
+		REGION MODAL DIALOG		
+	#################################
+*/
+
+
+
+
+
+/*		
+	#################################
+		REGION TABLE CONTAINER		
+	#################################
+*/
+
+
+
+
+
+/*		
+	#################################
+		REGION UTILS		
+	#################################
+*/
+	.border-shower{
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+		padding-bottom: 	2px;
+	}
+	
+	.border-shower:hover{
+		color: rgb(75, 65,117);
+		cursor: pointer;
+	}
+
+	.border-removal{
+		border: none;
+	}
+
+	.header-lg-decorator{
+		padding-left: 	5px;
+		padding-top:	3px;
+		background: 	rgb(154,189,191);
+		color: 			white;
+	}
+	
+	.header-md-decorator{
+		/*background: rgb(129,129,129);*/
+		background-color: rgb(154,189,191);
+		color: white;
+		height: 32px;
+		padding-left: 5px;
+		padding-top: 3px;
+		margin-top: 0px;
+	}
+
+	html,body{
+		font-family: "Times new roman";
+	}
+	
+	p{
+		font-size: 14px;
+		text-align: justify;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.custom-bar{
+	    border: 0;
+		height: 3px;
+		background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+		background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+		background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+		background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	}
+	
+	.container-image{
+		margin-top: -20px;
+		background: rgb(236,235,232);
+		width: 100%;
+		height: 100%;
+		background-size:100%;
+	}
+	
+	.container-img{
+		background-image: url('../images/paper1.png');
+		background-repeat: no-repeat;
+		background-position: 95% 95%;
+	}
+	
+	.navbar-default .navbar-nav >li > a{
+		margin-top: 20px;
+	}
+	
+	strong{
+		text-decoration: none;
+		color:rgb(231,144,15); 
+		font-size: 23px;
+	}
+	
+	a:hover{
+		text-decoration: none;
+	}
+	
+	video#pubvid{
+		position: fixed; right: 0; bottom: 0;
+		min-width: 100%; min-height: 100%;
+		width: auto; height: auto; z-index: -100;
+		background: url('images/pub.jpg') no-repeat;
+		background-size: cover;
+	}
+	
+
+/*		
+	#################################
+		REGION LOGIN		
+	#################################
+*/
+	.login-container{
+		margin-top: -20px;
+		padding-top: 20px;
+		background: rgb(236,235,232);
+		float: right;
+	}
+	
+	.login-container h3{
+		margin-top: -19px;
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-left: 20px;
+		background-color: rgb(154,189,191);
+		color: white;
+		height: 32px;
+	}
